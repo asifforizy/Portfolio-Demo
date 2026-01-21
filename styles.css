@@ -1,0 +1,57 @@
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
+.nav-title{
+    font-size: 3rem;
+}
+
+.dark-2{
+    color: #474747;
+}
+
+.org{
+    color: #FD6E0A;
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+nav ul li{
+    list-style: none;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #474747;
+
+}
+
+.primary-btn{
+    background-color:  #FD6E0A;
+    border: none;
+    padding:10px 15px ;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
