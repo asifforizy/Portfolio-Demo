@@ -170,20 +170,138 @@ footer {
   gap: 10px;
 }
 
-
-
-.form{
+.form {
   width: 50%;
-  
 }
 
-.text{
+.text {
   height: 60px;
 }
 
-.text-1{
+.text-1 {
   height: 100px;
 }
 
-.footer-content{
+.footer-content {
+}
+
+/* =========================
+   RESPONSIVE DESIGN
+   ========================= */
+
+/* Tablets (max-width: 992px) */
+@media (max-width: 992px) {
+  .header {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .header {
+    background-image: none;
+
+    padding: 0px;
+  }
+
+  .banner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .banner-des {
+    width: 100%;
+  }
+
+  .banner-img img {
+    width: 80%;
+    margin-top: 30px;
+  }
+
+  .main {
+    margin: 80px 50px;
+  }
+
+  .skills {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .tools {
+    width: 45%;
+  }
+
+  .resume {
+    flex-direction: column;
+  }
+
+  footer {
+    flex-direction: column;
+    padding: 80px 50px;
+  }
+
+  .form {
+    width: 100%;
+  }
+}
+
+/* Mobile (max-width: 576px) */
+@media (max-width: 576px) {
+  .nav-title {
+    font-size: 2rem;
+  }
+
+
+  nav ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+  }
+
+  .header {
+  }
+
+  .banner-name {
+    font-size: 48px;
+  }
+
+  .banner-gretings {
+    font-size: 28px;
+  }
+
+  .primary-btn,
+  .secondary-btn {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .about-me {
+    padding: 50px 20px;
+  }
+
+  .about-info {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .tools {
+    width: 100%;
+  }
+
+  .main {
+    margin: 50px 20px;
+  }
+
+  footer {
+    padding: 50px 20px;
+  }
+
+  .footer-content img {
+    margin-right: 10px;
+  }
 }
