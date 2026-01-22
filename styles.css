@@ -2,56 +2,91 @@
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings: "wdth" 100;
 }
 
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 50px;
-    margin-right: 50px;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;                                                            
+  margin-right: 100px;
 }
 
-
-
-.nav-title{
-    font-size: 3rem;
+.nav-title {
+  font-size: 3rem;
+  font-weight: bold;
 }
 
-.dark-2{
+.dark-2 {
+  color: #474747;
+}
+
+.org {
+  color: #fd6e0a;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #474747;
+}
+
+.primary-btn {
+  background-color: #fd6e0a;
+  border: none;
+  padding: 10px 15px;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.header {
+  background-color: #fff8f3;
+  padding-left: 230px;
+  padding-right: 50px;
+  background-image:  url(./images/developer.png),url(./images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+
+}
+
+.secondary-btn {
+  padding: 8px 15px;
+  font-weight: bold;
+  color: #fd6e0a;
+  font-size: 20px;
+  border-radius: 5px;
+  border-color: #fd6e0a;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner-name{
+    font-size: 85px;
+    margin: 0px;
+}
+
+.banner-gretings{
+    margin-bottom: 0px;
+    font-size: 45px;
     color: #474747;
 }
 
-.org{
-    color: #FD6E0A;
-    
-}
-nav ul{
-    display: flex;
-    align-items: center;
-    gap: 50px;
-}
-
-nav ul li{
-    list-style: none;
-    
-}
-
-nav ul li a{
-    text-decoration: none;
+.banner-des{
     color: #474747;
-
+    width: 60%;
+    margin-bottom: 30px;
 }
-
-.primary-btn{
-    background-color:  #FD6E0A;
-    border: none;
-    padding:10px 15px ;
-    font-weight: bold;
-    color: white;
-    font-size: 20px;
-    border-radius: 5px;
-}
-
