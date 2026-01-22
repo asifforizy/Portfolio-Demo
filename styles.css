@@ -138,3 +138,23 @@ nav ul li a {
 .skill-intro {
   text-align: center;
 }
+
+.resume{
+  display: flex;
+  gap: 20px;
+}
+
+.resume-title{
+  text-align: center;
+  margin-top: 130px;
+  margin-bottom: 50px
+}
+
+.btn-1{
+ display: flex;
+ justify-content: center;
+ margin-top: 50px;
+ margin-bottom: 130px;
+}
+
+
