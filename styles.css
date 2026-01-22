@@ -90,3 +90,30 @@ nav ul li a {
     width: 60%;
     margin-bottom: 30px;
 }
+
+.main{
+    margin: 130px 230px;
+    color: #474747;
+}
+
+.about-me{
+    text-align: center;
+    background-color: #fff8f3;
+    border-radius: 10px;
+    padding: 131px 157px ;
+}
+
+.about-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.info{
+    font-weight: bold;
+}
+
+.title-2{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+
+}
