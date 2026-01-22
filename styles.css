@@ -8,7 +8,7 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  align-items: center;                                                            
+  align-items: center;
   margin-right: 100px;
 }
 
@@ -53,10 +53,11 @@ nav ul li a {
   background-color: #fff8f3;
   padding-left: 230px;
   padding-right: 50px;
-  background-image:  url(./images/developer.png),url(./images/header_bg.png);
+  background-image: url(./images/developer.png), url(./images/header_bg.png);
   background-repeat: no-repeat;
-  background-position: top left, bottom right;
-
+  background-position:
+    top left,
+    bottom right;
 }
 
 .secondary-btn {
@@ -74,46 +75,66 @@ nav ul li a {
   justify-content: space-between;
 }
 
-.banner-name{
-    font-size: 85px;
-    margin: 0px;
+.banner-name {
+  font-size: 85px;
+  margin: 0px;
 }
 
-.banner-gretings{
-    margin-bottom: 0px;
-    font-size: 45px;
-    color: #474747;
+.banner-gretings {
+  margin-bottom: 0px;
+  font-size: 45px;
+  color: #474747;
 }
 
-.banner-des{
-    color: #474747;
-    width: 60%;
-    margin-bottom: 30px;
+.banner-des {
+  color: #474747;
+  width: 60%;
+  margin-bottom: 30px;
 }
 
-.main{
-    margin: 130px 230px;
-    color: #474747;
+.main {
+  margin: 130px 230px;
+  color: #474747;
 }
 
-.about-me{
-    text-align: center;
-    background-color: #fff8f3;
-    border-radius: 10px;
-    padding: 131px 157px ;
+.about-me {
+  text-align: center;
+  background-color: #fff8f3;
+  border-radius: 10px;
+  padding: 131px 157px;
 }
 
-.about-info{
-    display: flex;
-    justify-content: space-around;
+.about-info {
+  display: flex;
+  justify-content: space-around;
 }
 
-.info{
-    font-weight: bold;
+.info {
+  font-weight: bold;
 }
 
-.title-2{
-    font-size: 35px;
-    color: rgb(0, 0, 0);
+.title-2 {
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+}
+.tools {
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
+.skills {
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.skill {
+  margin-top: 130px;
+}
+
+.skill-intro {
+  text-align: center;
 }
