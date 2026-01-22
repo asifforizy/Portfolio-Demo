@@ -139,22 +139,51 @@ nav ul li a {
   text-align: center;
 }
 
-.resume{
+.resume {
   display: flex;
   gap: 20px;
 }
 
-.resume-title{
+.resume-title {
   text-align: center;
   margin-top: 130px;
-  margin-bottom: 50px
+  margin-bottom: 50px;
 }
 
-.btn-1{
- display: flex;
- justify-content: center;
- margin-top: 50px;
- margin-bottom: 130px;
+.btn-1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 130px;
+}
+
+footer {
+  background-color: #fff8f3;
+  padding: 130px;
+  display: flex;
+  gap: 50px;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 
+
+.form{
+  width: 50%;
+  
+}
+
+.text{
+  height: 60px;
+}
+
+.text-1{
+  height: 100px;
+}
+
+.footer-content{
+}
